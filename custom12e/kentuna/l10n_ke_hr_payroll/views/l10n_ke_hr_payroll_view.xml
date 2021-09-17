@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_contract_view_form_inherit_hr_contract" model="ir.ui.view">
+        <field name="name">hr.contract</field>
+        <field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+        <field name="model">hr.contract</field>
+        <field name="arch" type="xml">
+            <group name="salary_and_advantages" position="inside">
+                <group name="allowance" string="Allowances" colspan="2">
+                    <field name="employer_cpf"/>
+                    <field name="employer_cpf_per"/>
+                    <field name="compute_hse_allowance"/>
+                    <field name="annual_leave_pay"/>
+                    <field name="house_allowance"/>
+                    <field name="travel_allowance"/>
+                    <field name="other_allowance"/>
+                    <field name="monthly_relief"/>
+                    <field name="life_insurance_relief"/>
+                    <field name="h_bonus"/>
+                    <field name="fixed_monthly_advance"/>
+                    <field name="motor_vehicle"/>
+                    <field name="stipend_pay"/>
+                    <field name="stipend_adv"/>
+<!--                    <field name="commission"/>-->
+<!--                    <field name="overtime_amount"/>-->
+                </group>
+            </group>
+            <group name="salary_and_advantages" position="inside">
+                <group name="deduction" string="Deductions" colspan="2">
+                    <field name="deduct_nssf"/>
+                    <field name="deduct_nhif"/>
+                    <field name="deduct_cotu"/>
+                    <field name="deduct_union_dues"/>
+                    <field name="employee_loan_deduct"/>
+                    <field name="motor_vehicle_benefit_deduct"/>
+                </group>
+            </group>
+        </field>
+    </record>
+
+    <record id="hr_view_employee_form_inherit_hr_employee" model="ir.ui.view">
+        <field name="name">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="model">hr.employee</field>
+        <field name="arch" type="xml">
+            <field name="bank_account_id" position="after">
+                <field name="kra_pin" placeholder="e.g. A012345678S"/>
+                <field name="nssf_no"/>
+                <field name="nhif_no"/>
+            </field>
+        </field>
+    </record>
+</odoo>

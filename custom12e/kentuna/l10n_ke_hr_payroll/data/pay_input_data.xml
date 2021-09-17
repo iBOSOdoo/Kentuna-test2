@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="hr.salary.rule" id="kenya_sal_rule_motor_veh_benefit">
+            <field name="name">Motor Vehicle Benefit</field>
+            <field name="code">MVB</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="5"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=contract.motor_vehicle</field>
+<!--            <field name="amount_python_compute">result=inputs.IMVB and inputs.IMVB.amount</field>-->
+            <field name="quantity" eval="1"/>
+        </record>
+        <record model="hr.salary.rule" id="kenya_sal_rule_sale_comm">
+            <field name="name">Sales Commission</field>
+            <field name="code">SCOM</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="6"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=inputs.ISCOM and inputs.ISCOM.amount</field>
+            <field name="quantity" eval="1"/>
+        </record>
+        <record model="hr.salary.rule" id="kenya_sal_rule_branch_allow">
+            <field name="name">Branch Allowance</field>
+            <field name="code">BRA</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="7"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=inputs.IBRA and inputs.IBRA.amount</field>
+            <field name="quantity" eval="1"/>
+        </record>
+        <record model="hr.salary.rule" id="kenya_sal_rule_stock_bonus">
+            <field name="name">Stock Bonus</field>
+            <field name="code">SBON</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="8"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=inputs.ISBON and inputs.ISBON.amount</field>
+            <field name="quantity" eval="1"/>
+        </record>
+        <record model="hr.salary.rule" id="kenya_sal_rule_prod_team_lead">
+            <field name="name">Team Leader Allowance</field>
+            <field name="code">TLA</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="9"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=inputs.ITLA and inputs.ITLA.amount</field>
+            <field name="quantity" eval="1"/>
+        </record>
+        <record model="hr.salary.rule" id="kenya_sal_rule_xmas_bonus">
+            <field name="name">Xmas Bonus</field>
+            <field name="code">XMAS</field>
+            <field name="category_id" ref="l10n_ke_hr_payroll.kenya_salary_rule_cat_allowance"/>
+            <field name="sequence" eval="10"/>
+            <field name="active" eval="True"/>
+            <field name="appears_on_payslip" eval="True"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result=inputs.IXMAS and inputs.IXMAS.amount</field>
+            <field name="quantity" eval="1"/>
+        </record>
+
+        <record model="hr.rule.input" id="kenya_sal_rule_motor_veh_benefit_input">
+            <field name="name">Motor Vehicle Benefit</field>
+            <field name="code">IMVB</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_motor_veh_benefit"/>
+        </record>
+        <record model="hr.rule.input" id="kenya_sal_rule_sale_comm_input">
+            <field name="name">Sales Commission</field>
+            <field name="code">ISCOM</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_sale_comm"/>
+        </record>
+        <record model="hr.rule.input" id="kenya_sal_rule_branch_allow_input">
+            <field name="name">Branch Allowance</field>
+            <field name="code">IBRA</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_branch_allow"/>
+        </record>
+        <record model="hr.rule.input" id="kenya_sal_rule_stock_bonus_input">
+            <field name="name">Stock Bonus</field>
+            <field name="code">ISBON</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_stock_bonus"/>
+        </record>
+        <record model="hr.rule.input" id="kenya_sal_rule_prod_team_lead_input">
+            <field name="name">Team Leader Allowance</field>
+            <field name="code">ITLA</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_prod_team_lead"/>
+        </record>
+        <record model="hr.rule.input" id="kenya_sal_rule_xmas_bonus_input">
+            <field name="name">Xmas Bonus</field>
+            <field name="code">IXMAS</field>
+            <field name="input_id" ref="l10n_ke_hr_payroll.kenya_sal_rule_xmas_bonus"/>
+        </record>
+    </data>
+</odoo>

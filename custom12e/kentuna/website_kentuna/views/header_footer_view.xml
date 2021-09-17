@@ -1,0 +1,248 @@
+<odoo>
+    <data>
+
+        <template id="footer_custom_kentuna_c" inherit_id="website.footer_custom" name="Footer">
+            <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+            </xpath>
+            <xpath expr="//div[@id='footer']" position="replace">
+                <footer
+                        class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope"
+                        itemid="#colophon">
+                    <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5ea5592a17e81"
+                         data-node="5ea5592a17e81">
+                        <div class="fl-row-content-wrap">
+                            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                <div class="fl-col-group fl-node-5ea5592a18009"
+                                     data-node="5ea5592a18009">
+                                    <div class="fl-col fl-node-5ea5592a1800f fl-col-small"
+                                         data-node="5ea5592a1800f">
+                                        <div class="fl-col-content fl-node-content">
+                                            <div class="fl-module fl-module-uabb-heading fl-node-5ea5592a18010"
+                                                 data-node="5ea5592a18010">
+                                                <div class="fl-module-content fl-node-content">
+                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-left ">
+
+                                                        <h3 class="uabb-heading ">
+                                                            <strong>
+                                                                <span class="uabb-heading-text
+                                                        quick_footer_page">Quick
+                                                                    Links
+                                                                </span>
+                                                            </strong>
+                                                        </h3>
+
+                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl-module fl-module-info-list fl-node-5ea5592a18011"
+                                                 data-node="5ea5592a18011">
+                                                <div class="fl-module-content fl-node-content">
+                                                    <div class="uabb-module-content uabb-info-list">
+                                                        <ul class="uabb-info-list-wrapper uabb-info-list-left">
+                                                            <li class="uabb-info-list-item info-list-item-dynamic0">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic0">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Introduction
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic0">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="uabb-info-list-item info-list-item-dynamic1">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="/aboutus"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic1">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            About Us
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic1">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="uabb-info-list-item info-list-item-dynamic2">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic2">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Visit Store
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic2">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="uabb-info-list-item info-list-item-dynamic3">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic3">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Let's Connect
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic3">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fl-col fl-node-5ea5592a1800a"
+                                         data-node="5ea5592a1800a">
+                                        <div class="fl-col-content fl-node-content fish_layout">
+                                        </div>
+                                    </div>
+                                    <div class="fl-col fl-node-5ea5592a18012 fl-col-small"
+                                         data-node="5ea5592a18012">
+                                        <div class="fl-col-content fl-node-content">
+                                            <div class="fl-module fl-module-uabb-heading fl-node-5ea5592a18013"
+                                                 data-node="5ea5592a18013">
+                                                <div class="fl-module-content fl-node-content">
+                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-left ">
+
+                                                        <h3 class="uabb-heading">
+                                                            <strong>
+                                                                <span class="uabb-heading-text quick_footer_page">
+                                                                    Important Links
+                                                                </span>
+                                                            </strong>
+                                                        </h3>
+
+                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl-module fl-module-info-list fl-node-5ea5592a18014"
+                                                 data-node="5ea5592a18014">
+                                                <div class="fl-module-content fl-node-content">
+                                                    <div class="uabb-module-content uabb-info-list">
+                                                        <ul class="uabb-info-list-wrapper uabb-info-list-left">
+                                                            <li class="uabb-info-list-item info-list-item-dynamic0">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic0">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Privacy Policy
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic0">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="uabb-info-list-item info-list-item-dynamic1">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic1">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Shipping Detail
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic1">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="uabb-info-list-item info-list-item-dynamic2">
+                                                                <div class="uabb-info-list-content-wrapper uabb-info-list-left">
+                                                                    <a href="#"
+                                                                       class="uabb-info-list-link"
+                                                                       target="_self"></a>
+                                                                    <div class="uabb-info-list-content uabb-info-list-left info-list-content-dynamic2">
+                                                                        <h6 class="uabb-info-list-title">
+                                                                            Terms and Condition
+                                                                        </h6>
+                                                                        <div class="uabb-info-list-description uabb-text-editor info-list-description-dynamic2">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ast-small-footer ">
+                        <div class="ast-footer-overlay" style="padding-top: 2.66666em;padding-bottom: 2.66666em;">
+                            <div class=" container">
+                                <div class="ast-small-footer-wrap">
+                                    <div class="ast-row ast-flex" style="display: flex;">
+
+                                        <div class="ast-small-footer-section ast-small-footer-section-1 ast-small-footer-section-equally ast-col-md-6 ast-col-xs-12 col-lg-6">
+                                            Copyright © 2020
+                                            <span class="ast-footer-site-title">Kentuna</span>
+                                        </div>
+                                        <div class="ast-small-footer-section ast-small-footer-section-2 ast-small-footer-section-equally ast-col-md-6 ast-col-xs-12 col-lg-6">
+                                            <div class="footer-primary-navigation pull-right">
+                                                <ul id="menu-social-links-menu" class="nav-menu">
+                                                    <li id="menu-item-30"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30">
+                                                        <a href="https://www.facebook.com/wordpress">Facebook</a>
+                                                    </li>
+                                                    <li id="menu-item-31"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31">
+                                                        <a href="https://twitter.com/wordpress">Twitter</a>
+                                                    </li>
+                                                    <li id="menu-item-32"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32">
+                                                        <a href="https://www.instagram.com/explore/tags/wordcamp/">
+                                                            Instagram
+                                                        </a>
+                                                    </li>
+                                                    <li id="menu-item-33"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33">
+                                                        <a href="mailto:wordpress@example.com">Email</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </footer>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

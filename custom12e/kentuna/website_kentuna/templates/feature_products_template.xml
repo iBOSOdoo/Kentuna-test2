@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="snippet_feature_product_view" name="Feature Product">
+        <section class="flower-box">
+            <t t-set="feature_product" t-value="request.env['website.feature.products'].search([('id','=',feature_product_id)]).feature_product_ids"/>
+            <t t-if="feature_product">
+                <div class="text-center mb-md-5" style="margin-top:10px">
+                    <h3 class="title content-title">FEATURE PRODUCT</h3>
+                </div>
+            </t>
+            <t t-if="not feature_product">
+                <div class="text-center mb-md-5" style="display:none">
+                </div>
+            </t>
+            <t t-if="feature_product">
+            <div class="owl-carousel features_product_caroseul owl-theme owl-refresh">
+                <t t-foreach="feature_product" t-as="product">
+                    <div class="item">
+                        <div class="flower-content">
+                            <div class="card h-100">
+                                <a t-att-href="product.website_url" class="d-block h-100" itemprop="url">
+                                    <img t-attf-src="data:image/*;base64,{{product.image}}" class="feature_prod_images_slide" />
+                                </a>
+                                <div class="card-body pb-0 px-2 pt-2">
+                                    <h6 class="card-title">
+                                        <a t-att-href="product.website_url" class="d-block h-100" itemprop="url">
+                                            <t t-esc="product.name"/>
+                                        </a>
+                                    </h6>
+                                </div>
+                                <div class="card-footer border-0 bg-transparent px-2">
+                                    <span class="text-odoo">
+                                        <t t-esc="product.list_price"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </div>
+            </t>
+        </section>
+<!--        <section class="flower-box">-->
+<!--            <t t-set="feature_product"-->
+<!--               t-value="request.env['website.feature.products'].search([]).feature_product_ids"/>-->
+<!--            <t t-if="feature_product">-->
+<!--                <h2 class="text-center uabb-heading  Featured_product_home_page"-->
+<!--                    style="margin-top:10px">-->
+<!--                    <span class="uabb-heading-text">Featured-->
+<!--                        Products-->
+<!--                    </span>-->
+<!--                </h2>-->
+<!--                &lt;!&ndash;                                                    <div class="text-center " style="margin-top:10px">&ndash;&gt;-->
+<!--                &lt;!&ndash;                                                        <h3 class="title content-title">FEATURE PRODUCT</h3>&ndash;&gt;-->
+<!--                &lt;!&ndash;                                                    </div>&ndash;&gt;-->
+<!--                <div class="uabb-subheading uabb-text-editor feature_prod_des-->
+<!--                                                                mb-md-5">-->
+<!--                    <p>We keep a stock of fresh fish and-->
+<!--                        seafood products as listed below.-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </t>-->
+<!--            <t t-if="not feature_product">-->
+<!--                <div class="text-center mb-md-5" style="display:none">-->
+<!--                </div>-->
+<!--            </t>-->
+<!--            <div class="row owl-carousel features_product_caroseul owl-theme owl-refresh">-->
+<!--                <t t-foreach="feature_product" t-as="product">-->
+<!--                    <div class="item feature_prod_item-->
+<!--                                                        col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">-->
+<!--                        <div class="flower-content">-->
+<!--                            <div class=" h-100">-->
+<!--                                <a t-att-href="product.website_url"-->
+<!--                                   class="d-block h-100" itemprop="url">-->
+<!--                                    <img t-attf-src="data:image/*;base64,{{product.image-->
+<!--                                                                        }}" style="width:100%;"/>-->
+<!--                                </a>-->
+<!--                                <div class=" pb-0 px-2 pt-2">-->
+<!--                                    <h6 class="">-->
+<!--                                        <a t-att-href="product.website_url"-->
+<!--                                           class="d-block h-100" itemprop="url">-->
+<!--                                            <t t-esc="product.name"/>-->
+<!--                                        </a>-->
+<!--                                    </h6>-->
+<!--                                </div>-->
+<!--                                <div class=" border-0 bg-transparent px-2">-->
+<!--                                    <span class="text-odoo">-->
+<!--                                        <t t-esc="product.list_price"/>-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </t>-->
+<!--            </div>-->
+<!--        </section>-->
+    </template>
+
+
+    <template id="product_snippet" inherit_id="website.snippets" name="new snippets">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="website_kentuna.snippet_feature_product_view"
+               t-thumbnail="/website_kentuna/static/src/img/s_features.png"/>
+        </xpath>
+    </template>
+
+</odoo>
