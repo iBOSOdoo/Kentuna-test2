@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+kentuna_feature_products,feature_products_kentuna,website_kentuna.model_website_feature_products,,1,1,1,1

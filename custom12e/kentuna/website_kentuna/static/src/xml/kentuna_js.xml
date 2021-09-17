@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="assets_frontend" name="account assets" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/website_kentuna/static/src/js/469-layoute447.js"></script>
+            <script type="text/javascript" src="/website_kentuna/static/src/js/kentuna.js"></script>
+            <script type="text/javascript" src="/website_kentuna/static/src/js/custom.js"></script>
+            <script type="text/javascript" src="/website_kentuna/static/src/js/owl.carousel.js"></script>
+        </xpath>
+    </template>
+</odoo>

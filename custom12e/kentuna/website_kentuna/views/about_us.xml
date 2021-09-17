@@ -1,0 +1,477 @@
+<odoo>
+    <record id="menu_aboutus_kentuna" model="website.menu">
+        <field name="name">About us</field>
+        <field name="url">/aboutus</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">15</field>
+    </record>
+    <template id="about_us_template" inherit_id="website.aboutus">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure" style="margin-top:0px;">
+                <!--        <t t-call="website.layout">-->
+                <!--            <t t-set="title">About Us</t>-->
+                <div id="content" class="site-content">
+                    <div id="primary" class="content-area primary">
+                        <main id="main" class="site-main">
+                            <article
+                                    class="post-10 page type-page status-publish ast-article-single" id="post-10"
+                                    itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+                                <header class="entry-header ast-header-without-markup">
+                                </header>
+                                <div class="entry-content clear"
+                                     itemprop="text">
+                                    <div class="fl-builder-content fl-builder-content-10 fl-builder-content-primary"
+                                         data-post-id="10">
+                                        <div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5c5a692fd89f0 fl-row-bg-overlay"
+                                             data-node="5c5a692fd89f0">
+                                            <div class="fl-row-content-wrap">
+                                                <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                    <div class="fl-col-group fl-node-5c5a692fd893a"
+                                                         data-node="5c5a692fd893a">
+                                                        <div class="fl-col fl-node-5c5a692fd8977"
+                                                             data-node="5c5a692fd8977">
+                                                            <div class="fl-col-content fl-node-content">
+                                                                <div class="fl-module fl-module-uabb-heading fl-node-5c5a692fd89b4"
+                                                                     data-node="5c5a692fd89b4">
+                                                                    <div class="fl-module-content fl-node-content">
+                                                                        <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                            <h1 class="uabb-heading">
+                                                                                <span class="uabb-heading-text">
+                                                                                    About Us
+                                                                                </span>
+                                                                            </h1>
+
+                                                                            <div class="uabb-module-content uabb-separator-parent">
+                                                                            </div>
+
+                                                                            <div class="uabb-subheading uabb-text-editor">
+                                                                                <p>
+                                                                                    <strong>Lorem Ipsum</strong>
+                                                                                    is simply dummy text of the
+                                                                                    printing and typesetting
+                                                                                    industry. Lorem Ipsum has been
+                                                                                    the industry's standard dummy
+                                                                                    text ever since the 1500s.
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5c5a6944bef21"
+                                         data-node="5c5a6944bef21">
+                                        <div class="fl-row-content-wrap">
+                                            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                <div class="fl-col-group fl-node-5c5a6944ca812"
+                                                     data-node="5c5a6944ca812">
+                                                    <div class="fl-col fl-node-5c5a6944ca8be" data-node="5c5a6944ca8be">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a695b2f193"
+                                                                 data-node="5c5a695b2f193">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h2 class="uabb-heading text_about_us_heading">
+                                                                            <span class="uabb-heading-text">We work hard
+                                                                                to provide you the best quality fish
+                                                                                andits products
+                                                                            </span>
+                                                                        </h2>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor
+                                                                        about_us_subheading_text">
+                                                                            <p><strong>Lorem Ipsum</strong> is simply
+                                                                                dummy text of the printing and
+                                                                                typesetting industry. Lorem Ipsum has
+                                                                                been the industry's standard dummy text
+                                                                                ever since the 1500s, when an unknown
+                                                                                printer took a galley of type and
+                                                                                scrambled it to make a type specimen
+                                                                                book. It has survived not only five
+                                                                                centuries, but also the leap into
+                                                                                electronic typesetting, remaining
+                                                                                essentially unchanged. It was
+                                                                                popularised in the 1960s with the
+                                                                                release of Letraset sheets containing
+                                                                                Lorem Ipsum passages, and more recently
+                                                                                with desktop publishing software like
+                                                                                Aldus PageMaker including versions of
+                                                                                Lorem Ipsum.
+                                                                            </p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5c5a6a7f3a317"
+                                         data-node="5c5a6a7f3a317">
+                                        <div class="fl-row-content-wrap">
+                                            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                <div class="fl-col-group fl-node-5c5a6a7f46ff2"
+                                                     data-node="5c5a6a7f46ff2">
+                                                    <div class="fl-col fl-node-5c5a6a7f4709a" data-node="5c5a6a7f4709a">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6aae3e428"
+                                                                 data-node="5c5a6aae3e428">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h2 class="uabb-heading out_company_name_aboutus">
+                                                                            <span class="uabb-heading-text">Our
+                                                                                Company
+                                                                            </span>
+                                                                        </h2>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="fl-col-group fl-node-5c5a6b13c1910"
+                                                     data-node="5c5a6b13c1910">
+                                                    <div class="fl-col fl-node-5c5a6b13c199e" data-node="5c5a6b13c199e">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-spacer-gap fl-node-5c5a6b4b80113"
+                                                                 data-node="5c5a6b4b80113">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-spacer-gap-preview uabb-spacer-gap">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="fl-col-group fl-node-5ea55cc9816ec fl-col-group-equal-height fl-col-group-align-center"
+                                                     data-node="5ea55cc9816ec">
+                                                    <div class="fl-col fl-node-5ea55cc981774 fl-col-small"
+                                                         data-node="5ea55cc981774">
+                                                        <div class="fl-col-content fl-node-content">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fl-col fl-node-5ea55cc981777 fl-col-small"
+                                                         data-node="5ea55cc981777">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-rich-text fl-node-5ea55d76a4967"
+                                                                 data-node="5ea55d76a4967">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="fl-rich-text rich_text_about_us">
+                                                                        <p style="text-align: center;">KenTuna LTD was
+                                                                            founded in 2019, with our head office based
+                                                                            in Watamu, Kenya.The company was founded by
+                                                                            Bryan Matiba, a well-experienced captain
+                                                                            &amp; fisherman, with a Degree in Yacht
+                                                                            Design and Engineering. KenTuna was formed
+                                                                            with an aim to drastically improve the
+                                                                            quality &amp; accessibility of seafood
+                                                                            offered to customers country wide.
+                                                                            <br/>
+                                                                            Our mission is to deliver fresh &amp; higher
+                                                                            quality seafood directly to the customer’s
+                                                                            doorstep, whether it be households or
+                                                                            businesses. We work closely with our main
+                                                                            courier company Wells Fargo, as well as
+                                                                            other retail companies around the country
+                                                                            allowing our products to be easily
+                                                                            accessible &amp; delivered on time!
+                                                                            <br/>
+                                                                            Please do not hesitate to contact us to find
+                                                                            out more about what we do. You can also
+                                                                            follow us on Instagram / Facebook
+                                                                            @kentuna_seafood
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5c5a6c854c3eb"
+                                         data-node="5c5a6c854c3eb">
+                                        <div class="fl-row-content-wrap">
+                                            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                <div class="fl-col-group fl-node-5c5a6c855c12d"
+                                                     data-node="5c5a6c855c12d">
+                                                    <div class="fl-col fl-node-5c5a6c855c1d5" data-node="5c5a6c855c1d5">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6c9beead8"
+                                                                 data-node="5c5a6c9beead8">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h2 class="uabb-heading our_team_abount_us_name">
+                                                                            <span class="uabb-heading-text">Our Team
+                                                                            </span>
+                                                                        </h2>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor about_us_Lorem Ipsum">
+                                                                            <p>
+                                                                                <strong>Lorem Ipsum</strong>
+                                                                                is simply dummy text of the printing and
+                                                                                typesetting industry. Lorem Ipsum has
+                                                                                been the industry's standard dummy text
+                                                                                ever since the 1500s.
+                                                                            </p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="fl-col-group fl-node-5c5a6cd36a47f"
+                                                     data-node="5c5a6cd36a47f">
+                                                    <div class="fl-col fl-node-5c5a6cd36a576 fl-col-small"
+                                                         data-node="5c5a6cd36a576">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-image-icon fl-node-5c5a6ceda8e7f"
+                                                                 data-node="5c5a6ceda8e7f">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-imgicon-wrap">
+                                                                        <div class="uabb-image uabb-image-crop-simple"
+                                                                             itemtype="http://schema.org/ImageObject">
+                                                                            <div class="uabb-image-content">
+                                                                                <img class="uabb-photo-img wp-image-728"
+                                                                                     src="/website_kentuna/static/src/img/team.jpg"
+                                                                                     alt="team" itemprop="image"
+                                                                                     srcset="https://www.kentuna.com/site2/wp-content/uploads/2020/04/team.jpg 500w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/team-300x200.jpg 300w"
+                                                                                     sizes="(max-width: 500px) 100vw, 500px"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6d08b3326"
+                                                                 data-node="5c5a6d08b3326">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h3 class="uabb-heading ">
+                                                                            <span class="uabb-heading-text
+                                                                            bryan_name_about_us">Bryan
+                                                                                Matiba
+                                                                            </span>
+                                                                        </h3>
+
+                                                                        <div class="uabb-module-content
+                                                                        uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor
+                                                                        name_team_about_us">
+                                                                            <p>Founder</p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fl-col fl-node-5c5a6d3adb726 fl-col-small"
+                                                         data-node="5c5a6d3adb726">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-image-icon fl-node-5c5a6d3adb7d5"
+                                                                 data-node="5c5a6d3adb7d5">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-imgicon-wrap">
+                                                                        <div class="uabb-image
+		 uabb-image-crop-simple		" itemtype="http://schema.org/ImageObject">
+                                                                            <div class="uabb-image-content">
+                                                                                <img class="uabb-photo-img wp-image-728"
+                                                                                     src="/website_kentuna/static/src/img/team.jpg"
+                                                                                     alt="team" itemprop="image"
+                                                                                     srcset="https://www.kentuna.com/site2/wp-content/uploads/2020/04/team.jpg 500w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/team-300x200.jpg 300w"
+                                                                                     sizes="(max-width: 500px) 100vw, 500px"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6d3adb812"
+                                                                 data-node="5c5a6d3adb812">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h3 class="uabb-heading ">
+                                                                            <span class="uabb-heading-text
+                                                                            bryan_name_about_us">Bryan
+                                                                                Matiba
+                                                                            </span>
+                                                                        </h3>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor
+                                                                         name_team_about_us">
+                                                                            <p>Co-founder</p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fl-col fl-node-5c5a6d40bfed9 fl-col-small"
+                                                         data-node="5c5a6d40bfed9">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-image-icon fl-node-5c5a6d40bff86"
+                                                                 data-node="5c5a6d40bff86">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-imgicon-wrap">
+                                                                        <div class="uabb-image
+		 uabb-image-crop-simple		" itemtype="http://schema.org/ImageObject">
+                                                                            <div class="uabb-image-content">
+                                                                                <img class="uabb-photo-img wp-image-728"
+                                                                                     src="/website_kentuna/static/src/img/team.jpg"
+                                                                                     alt="team" itemprop="image"
+                                                                                     srcset="https://www.kentuna.com/site2/wp-content/uploads/2020/04/team.jpg 500w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/team-300x200.jpg 300w"
+                                                                                     sizes="(max-width: 500px) 100vw, 500px"/>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6d40bffc3"
+                                                                 data-node="5c5a6d40bffc3">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-center ">
+
+                                                                        <h3 class="uabb-heading">
+                                                                            <span class="uabb-heading-text
+                                                                            bryan_name_about_us">Bryan
+                                                                                Matiba
+                                                                            </span>
+                                                                        </h3>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor
+                                                                                        name_team_about_us">
+                                                                            <p>Co-founder</p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5c5a6d97d53c6 fl-row-bg-overlay"
+                                         data-node="5c5a6d97d53c6">
+                                        <div class="fl-row-content-wrap">
+                                            <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                <div class="fl-col-group fl-node-5c5a6d97d5297"
+                                                     data-node="5c5a6d97d5297">
+                                                    <div class="fl-col fl-node-5c5a6d97d52d4" data-node="5c5a6d97d52d4">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-uabb-heading fl-node-5c5a6d97d534e"
+                                                                 data-node="5c5a6d97d534e">
+                                                                <div class="fl-module-content fl-node-content">
+                                                                    <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-left ">
+
+                                                                        <h3 class="uabb-heading">
+                                                                            <span class="uabb-heading-text">Interested?
+                                                                                Shop all
+                                                                                categories!
+                                                                            </span>
+                                                                        </h3>
+
+                                                                        <div class="uabb-module-content uabb-separator-parent">
+                                                                        </div>
+
+                                                                        <div class="uabb-subheading uabb-text-editor">
+                                                                            <p>Visit our store to get all the products
+                                                                                which we
+                                                                                offer.
+                                                                            </p>
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="fl-col fl-node-5c5a6d97d5311 fl-col-small"
+                                                         data-node="5c5a6d97d5311">
+                                                        <div class="fl-col-content fl-node-content">
+                                                            <div class="fl-module fl-module-uabb-button fl-node-5c5a6d97d538a"
+                                                                 data-node="5c5a6d97d538a">
+                                                                <div class="fl-module-content fl-node-content">
+
+                                                                    <div class="uabb-module-content uabb-button-wrap uabb-creative-button-wrap uabb-button-width-custom uabb-creative-button-width-custom uabb-button-center uabb-creative-button-center uabb-button-reponsive-center uabb-creative-button-reponsive-center">
+                                                                        <a href="#" target="_self"
+                                                                           class="uabb-button uabb-creative-button uabb-creative-default-btn   "
+                                                                           role="button">
+                                                                            <span class="uabb-button-text uabb-creative-button-text">
+                                                                                Go to shop
+                                                                            </span>
+
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
