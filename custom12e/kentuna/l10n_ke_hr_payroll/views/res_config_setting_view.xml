@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--<record id="local_res_config_settings_view_from" model="ir.ui.view">
+        <field name="name">local.res.config.settings.view.form.inherit.hr.payroll</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="46"/>
+        <field name="inherit_id" ref="hr_payroll.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <field name="module_l10n_in_hr_payroll" position="after">
+                <field name="module_l10n_ke_hr_payroll" />
+            </field>
+            <xpath expr="//h2" position="replace">
+                <h2 attrs="{'invisible': ['|', '|', ('module_l10n_fr_hr_payroll', '=', True), ('module_l10n_be_hr_payroll', '=', True), ('module_l10n_in_hr_payroll', '=', True), ('module_l10n_ke_hr_payroll', '=', True)]}">Payroll</h2>
+            </xpath>
+            <xpath expr="//div[@id='hr_payroll_localization']" position="replace">
+                <div class="row mt16 o_settings_container" id="hr_payroll_localization" attrs="{'invisible': ['|', '|', ('module_l10n_fr_hr_payroll', '=', True), ('module_l10n_be_hr_payroll', '=', True), ('module_l10n_in_hr_payroll', '=', True), ('module_l10n_ke_hr_payroll', '=', True)]}">
+                        <div class="col-md-6 col-xs-12 o_setting_box">
+                            <div class="o_setting_right_pane">
+                                <label string="Payroll Rules"/>
+                                <div class="text-muted">
+                                    Payroll rules that apply to your country
+                                </div>
+                                <div class="mt16" id="localization_text">
+                                    <button name="%(hr_payroll.open_payroll_modules)d" icon="fa-arrow-right" type="action" string="Choose a Payroll Localization" class="btn-link"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </xpath>
+        </field>
+    </record>-->
+
+</odoo>

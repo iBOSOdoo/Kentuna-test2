@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="homepage_template" name="Home" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" style="margin-top:0px;">
+                <t t-set="title">KenTuna - Seafood Suppliers</t>
+                <div class="oe_structure">
+                    <div id="content" class="site-content">
+                        <div id="primary" class="content-area primary">
+                            <main id="main" class="site-main">
+                                <article
+                                        class="post-9 page type-page status-publish ast-article-single" id="post-9"
+                                        itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+                                    <header class="entry-header ast-header-without-markup">
+                                    </header><!-- .entry-header -->
+                                    <div class="entry-content clear"
+                                         itemprop="text">
+                                        <div class="fl-builder-content fl-builder-content-9 fl-builder-content-primary"
+                                             data-post-id="9">
+                                            <div class="fl-row fl-row-full-width fl-row-bg-gradient fl-node-5c5933fa342a8"
+                                                 data-node="5c5933fa342a8">
+                                                <div class="fl-row-content-wrap">
+                                                    <div class="fl-row-content fl-row-fixed-width fl-node-content">
+                                                        <div class="fl-col-group fl-node-5c5933fa3d040"
+                                                             data-node="5c5933fa3d040">
+                                                            <div class="fl-col fl-node-5c5933fa3d0e6"
+                                                                 data-node="5c5933fa3d0e6">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-photo
+                                                                fl-node-5ea91b1e7533d fish_image_homepage"
+                                                                         data-node="5ea91b1e7533d">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="fl-photo fl-photo-align-center"
+                                                                                 itemtype="https://schema.org/ImageObject">
+                                                                                <div class="fl-photo-content fl-photo-img-png">
+                                                                                    <img class="fl-photo-img wp-image-690"
+                                                                                         src="/website_kentuna/static/src/img/logo.png"
+                                                                                         alt="LOGO" itemprop="image"
+                                                                                         title="logo1"
+                                                                                         srcset="https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo.png 2480w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-600x423.png 600w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-300x211.png 300w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-1024x722.png 1024w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-768x541.png 768w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-1536x1083.png 1536w, https://www.kentuna.com/site2/wp-content/uploads/2020/04/logo-2048x1444.png 2048w"
+                                                                                         sizes="(max-width: 2480px) 100vw, 2480px"/>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fl-module fl-module-uabb-heading
+                                                        fl-node-5c59352ba7e64"
+                                                                         data-node="5c59352ba7e64">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content uabb-heading-wrapper
+                                                            uabb-heading-align-center ">
+                                                                                <h5 class="uabb-heading">
+                                                                                    <span class="uabb-heading-text">The
+                                                                                        finest quality, freshly packed,
+                                                                                        Kenyan seafood delivered to your
+                                                                                        door. Proudly supporting Kenyan
+                                                                                        coastal fishermen and sustainable
+                                                                                        fishing practices.
+                                                                                    </span>
+                                                                                </h5>
+                                                                                <div class="uabb-module-content uabb-separator-parent">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fl-module fl-module-uabb-button
+                                                        fl-node-5c59368f7ce6a"
+                                                                         data-node="5c59368f7ce6a">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="shop_now_button
+                                                                        uabb-module-content uabb-button-wrap
+                                                                        uabb-creative-button-wrap
+                                                                        uabb-button-width-custom
+                                                                        uabb-creative-button-width-custom
+                                                                         uabb-button-center uabb-creative-button-center
+                                                                         uabb-button-reponsive-center
+                                                                          uabb-creative-button-reponsive-center">
+                                                                                <a href="/shop" target="_self"
+                                                                                   class="uabb-button uabb-creative-button
+                                                               uabb-creative-default-btn   "
+                                                                                   role="button">
+                                                                                    <span class="uabb-button-text
+                                                                                 uabb-creative-button-text
+                                                                                 ">
+                                                                                        Shop Now
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5c5939f02fa83
+                                        fl-row-has-layers"
+                                                 data-node="5c5939f02fa83">
+                                                <div class="fl-row-content-wrap">
+                                                    <div class="fl-builder-layer fl-builder-shape-layer
+                                                fl-builder-top-edge-layer fl-builder-shape-wavy">
+                                                        <svg class="fl-builder-layer-align-top-center" viewBox="0 0 800 102"
+                                                             preserveAspectRatio="none">
+                                                            <defs>
+                                                                <linearGradient
+                                                                        id="fl-row-5c5939f02fa83-top_edge_-linear-gradient"
+                                                                        gradientUnits="objectBoundingBox"
+                                                                        gradientTransform="rotate(90 .5 .5)">
+                                                                    <stop offset="0%" stop-color="rgb(0,136,255)"
+                                                                          stop-opacity="0.78"></stop>
+                                                                    <stop offset="53%" stop-color="rgb(0,225,255)"
+                                                                          stop-opacity="1"></stop>
+                                                                </linearGradient>
+                                                                <radialGradient
+                                                                        id="fl-row-5c5939f02fa83-top_edge_-radial-gradient"
+                                                                        cx="0.5" cy="0.5" r="0.5">
+                                                                    <stop offset="0%" stop-color="rgb(0,136,255)"
+                                                                          stop-opacity="0.78"></stop>
+                                                                    <stop offset="53%" stop-color="rgb(0,225,255)"
+                                                                          stop-opacity="1"></stop>
+                                                                </radialGradient>
+                                                            </defs>
+                                                            <g class="fl-shape-content">
+                                                                <path class="fl-shape svg_color"
+                                                                      d="M0,0 L800,0 C717.140625,0 726.058594,62.0585937 669.660156,62.0585937 C613.261719,62.0585937 604.234948,10.4922726 561.091797,10.4922726 C517.948646,10.4922726 522.667969,72.7050942 462.202976,54.171875 C401.737983,35.6386558 410.177721,100 372.386628,100 C334.595534,100 319.909894,54.171875 292.280298,54.171875 C264.650702,54.171875 259.270492,78.4116686 220.022711,72.7050942 C180.774931,66.9985197 179.391645,18.53125 120.752463,33.0078125 C62.1132812,47.484375 94.9472656,0 0,0 Z"></path>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                        <div class="fl-col-group fl-node-5c5939f03ce37
+                                                    fl-col-group-equal-height fl-col-group-align-top"
+                                                             data-node="5c5939f03ce37">
+                                                            <div class="fl-col fl-node-5c5939f03cedb fl-col-small
+                                                        fl-col-bg-overlay"
+                                                                 data-node="5c5939f03cedb">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-uabb-heading
+                                                                fl-node-5c593bd3ae61b"
+                                                                         data-node="5c593bd3ae61b">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content
+                                                                        uabb-heading-wrapper uabb-heading-align-center">
+                                                                                <h3 class="uabb-heading">
+                                                                                    <span class="uabb-heading-text">
+                                                                                        Sourcing
+                                                                                    </span>
+                                                                                </h3>
+
+                                                                                <div class="uabb-module-content
+                                                                            uabb-separator-parent">
+                                                                                </div>
+                                                                                <div class="uabb-subheading
+                                                                            uabb-text-editor">
+                                                                                    <p>Fresh fish and seafood is key to our
+                                                                                        success. Our team works hand in hand
+                                                                                        with the local fisherman to source
+                                                                                        the freshest fish and seafood on the
+                                                                                        market. All seafood is stored
+                                                                                        directly on ice prior to packaging.
+                                                                                    </p>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fl-module fl-module-uabb-button
+                                                                fl-node-5df8d9ef1673a"
+                                                                         data-node="5df8d9ef1673a">
+                                                                        <div class="fl-module-content
+                                                                    fl-node-content">
+
+                                                                            <div class="uabb-module-content
+                                                                        uabb-button-wrap uabb-creative-button-wrap
+                                                                         uabb-button-width-custom
+                                                                         uabb-creative-button-width-custom
+                                                                         uabb-button-center uabb-creative-button-center
+                                                                         uabb-button-reponsive-center
+                                                                         uabb-creative-button-reponsive-center">
+                                                                                <a href="#" target="_self"
+                                                                                   class="uabb-button uabb-creative-button
+                                                                               uabb-creative-default-btn   "
+                                                                                   role="button">
+                                                                                    <span class="uabb-button-text
+                                                                                uabb-creative-button-text">
+                                                                                        See Collection
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-col fl-node-5c594eb7714fa
+                                                        fl-col-small fl-col-bg-overlay"
+                                                                 data-node="5c594eb7714fa">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-uabb-heading
+                                                                 fl-node-5c594eb77159e"
+                                                                         data-node="5c594eb77159e">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content
+                                                                        uabb-heading-wrapper
+                                                                        uabb-heading-align-center ">
+
+                                                                                <h3 class="uabb-heading">
+                                                                                    <span class="uabb-heading-text">
+                                                                                        Packaging
+                                                                                    </span>
+                                                                                </h3>
+
+                                                                                <div class="uabb-module-content
+                                                                            uabb-separator-parent">
+                                                                                </div>
+
+                                                                                <div class="uabb-subheading
+                                                                            uabb-text-editor">
+                                                                                    <p>Once sourced the fish and seafood
+                                                                                        arrives at our packaging and
+                                                                                        storage
+                                                                                        facility where our team fillet or
+                                                                                        clean each item. Once packed, all
+                                                                                        seafood is blast frozen to preserve
+                                                                                        quality and stored at below -18
+                                                                                        degrees C.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fl-module
+                                                                fl-module-uabb-button
+                                                                fl-node-5df8d9f7c4504"
+                                                                         data-node="5df8d9f7c4504">
+                                                                        <div class="fl-module-content
+                                                                    fl-node-content">
+
+                                                                            <div class="uabb-module-content uabb-button-wrap
+                                                                         uabb-creative-button-wrap
+                                                                          uabb-button-width-custom
+                                                                          uabb-creative-button-width-custom
+                                                                          uabb-button-center uabb-creative-button-center
+                                                                           uabb-button-reponsive-center
+                                                                           uabb-creative-button-reponsive-center">
+                                                                                <a href="#" target="_self"
+                                                                                   class="uabb-button uabb-creative-button
+                                                                               uabb-creative-default-btn   "
+                                                                                   role="button">
+                                                                                    <span class="uabb-button-text
+                                                                                uabb-creative-button-text">
+                                                                                        See Collection
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-col fl-node-5c594ebbe757b fl-col-small
+                                                        fl-col-bg-overlay"
+                                                                 data-node="5c594ebbe757b">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-uabb-heading
+                                                                fl-node-5c594ebbe7622"
+                                                                         data-node="5c594ebbe7622">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content
+                                                                        uabb-heading-wrapper uabb-heading-align-center">
+
+                                                                                <h3 class="uabb-heading">
+                                                                                    <span class="uabb-heading-text">
+                                                                                        Delivery
+                                                                                    </span>
+                                                                                </h3>
+                                                                                <div class="uabb-module-content
+                                                                            uabb-separator-parent">
+                                                                                </div>
+                                                                                <div class="uabb-subheading
+                                                                            uabb-text-editor">
+                                                                                    <p>Orders are dispatched once a week to
+                                                                                        Nairobi. Special orders can be
+                                                                                        arranged on request to alternative
+                                                                                        locations. To keep the contents
+                                                                                        fresh you will receive you order
+                                                                                        packed in a EPS box containing dry
+                                                                                        ice.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fl-module fl-module-uabb-button
+                                                                fl-node-5df8d996c3fa6"
+                                                                         data-node="5df8d996c3fa6">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content uabb-button-wrap
+                                                                         uabb-creative-button-wrap
+                                                                         uabb-button-width-custom
+                                                                         uabb-creative-button-width-custom
+                                                                         uabb-button-center uabb-creative-button-center
+                                                                          uabb-button-reponsive-center
+                                                                          uabb-creative-button-reponsive-center">
+                                                                                <a href="#" target="_self"
+                                                                                   class="uabb-button uabb-creative-button
+                                                                                uabb-creative-default-btn   "
+                                                                                   role="button">
+                                                                                    <span class="uabb-button-text
+                                                                                uabb-creative-button-text">
+                                                                                        Visit The Store
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5c59509005d23
+                                        fl-row-has-layers"
+                                                 data-node="5c59509005d23">
+                                                <div class="fl-row-content-wrap">
+                                                    <div class="fl-builder-layer fl-builder-shape-layer
+                                                 fl-builder-top-edge-layer fl-builder-shape-edge-slant">
+                                                        <svg class="fl-builder-layer-align-top-center"
+                                                             viewBox="0 0 422 33.98" preserveAspectRatio="none">
+                                                            <defs>
+                                                                <linearGradient
+                                                                        id="fl-row-5c59509005d23-top_edge_-linear-gradient"
+                                                                        gradientUnits="objectBoundingBox"
+                                                                        gradientTransform="rotate(90 .5 .5)">
+                                                                    <stop offset="0%" stop-color="rgb(0,236,244)"
+                                                                          stop-opacity="0.11"/>
+                                                                    <stop offset="100%" stop-color="rgb(0,247,247)"
+                                                                          stop-opacity="1"/>
+                                                                </linearGradient>
+                                                                <radialGradient
+                                                                        id="fl-row-5c59509005d23-top_edge_-radial-gradient"
+                                                                        cx="0.5" cy="0.5" r="0.5">
+                                                                    <stop offset="0%" stop-color="rgb(0,236,244)"
+                                                                          stop-opacity="0.11"/>
+                                                                    <stop offset="100%" stop-color="rgb(0,247,247)"
+                                                                          stop-opacity="1"/>
+                                                                </radialGradient>
+                                                            </defs>
+                                                            <g class="fl-shape-content">
+                                                                <polygon class="fl-shape" points="0,34 422,0 0,0"></polygon>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="fl-builder-layer fl-builder-shape-layer
+                                                fl-builder-bottom-edge-layer fl-builder-shape-edge-slant">
+                                                        <svg class="fl-builder-layer-align-bottom-center"
+                                                             viewBox="0 0 422 33.98" preserveAspectRatio="none">
+                                                            <defs>
+                                                                <linearGradient
+                                                                        id="fl-row-5c59509005d23-bottom_edge_-linear-gradient"
+                                                                        gradientUnits="objectBoundingBox"
+                                                                        gradientTransform="rotate(90 .5 .5)">
+                                                                    <stop offset="0%" stop-color="rgb(0,242,255)"
+                                                                          stop-opacity="0.36"/>
+                                                                    <stop offset="100%" stop-color="rgb(0,247,239)"
+                                                                          stop-opacity="1"/>
+                                                                </linearGradient>
+                                                                <radialGradient
+                                                                        id="fl-row-5c59509005d23-bottom_edge_-radial-gradient"
+                                                                        cx="0.5" cy="0.5" r="0.5">
+                                                                    <stop offset="0%" stop-color="rgb(0,242,255)"
+                                                                          stop-opacity="0.36"/>
+                                                                    <stop offset="100%" stop-color="rgb(0,247,239)"
+                                                                          stop-opacity="1"/>
+                                                                </radialGradient>
+                                                            </defs>
+                                                            <g class="fl-shape-content">
+                                                                <polygon class="fl-shape" points="0,34 422,0 0,0"></polygon>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="fl-row-content fl-row-fixed-width fl-node-content">
+<!--                                                        <div class="fl-col-group fl-node-5c59509014c00"-->
+<!--                                                             data-node="5c59509014c00">-->
+<!--                                                            <div class="fl-col fl-node-5c59509014ca6"-->
+<!--                                                                 data-node="5c59509014ca6">-->
+<!--                                                                <div class="fl-col-content fl-node-content">-->
+<!--                                                                    <div class="fl-module fl-module-uabb-heading-->
+<!--                                                                fl-node-5c5950bb49cb6"-->
+<!--                                                                         data-node="5c5950bb49cb6">-->
+<!--                                                                        <div class="fl-module-content fl-node-content">-->
+<!--                                                                            <div class="uabb-module-content-->
+<!--                                                                        uabb-heading-wrapper uabb-heading-align-center">-->
+
+<!--                                                                                <h2 class="uabb-heading-->
+<!--                                                                            Featured_product_home_page">-->
+<!--                                                                                    <span class="uabb-heading-text">Featured-->
+<!--                                                                                        Products-->
+<!--                                                                                    </span>-->
+<!--                                                                                </h2>-->
+<!--                                                                                <div class="uabb-module-content-->
+<!--                                                                            uabb-separator-parent">-->
+<!--                                                                                </div>-->
+
+<!--                                                                                <div class="uabb-subheading-->
+<!--                                                                            uabb-text-editor">-->
+<!--                                                                                    <p>We keep a stock of fresh fish and-->
+<!--                                                                                        seafood products as listed below.-->
+<!--                                                                                    </p>-->
+<!--                                                                                </div>-->
+
+
+<!--                                                                            </div>-->
+<!--                                                                        </div>-->
+<!--                                                                    </div>-->
+<!--                                                                </div>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+                                                        <t t-snippet="website_kentuna.snippet_feature_product_view" t-thumbnail="/website/static/src/img/snippets_thumbs/s_features.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5c596387cead7 fl-row-bg-overlay"
+                                                 data-node="5c596387cead7">
+                                                <div class="fl-row-content-wrap">
+                                                    <div class="fl-row-content fl-row-fixed-width fl-node-content">
+
+                                                        <div class="fl-col-group fl-node-5c596387e22ed"
+                                                             data-node="5c596387e22ed">
+                                                            <div class="fl-col fl-node-5c596387e23a2"
+                                                                 data-node="5c596387e23a2">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-uabb-heading fl-node-5c5963f065eb6"
+                                                                         data-node="5c5963f065eb6">
+                                                                        <div class="fl-module-content fl-node-content">
+                                                                            <div class="uabb-module-content uabb-heading-wrapper uabb-heading-align-left ">
+
+                                                                                <h3 class="uabb-heading">
+                                                                                    <span class="uabb-heading-text">
+                                                                                        Interested? Shop all categories!
+                                                                                    </span>
+                                                                                </h3>
+
+                                                                                <div class="uabb-module-content uabb-separator-parent">
+                                                                                </div>
+
+                                                                                <div class="uabb-subheading uabb-text-editor">
+                                                                                    <p>Visit our store to get all the
+                                                                                        products which we offer.
+                                                                                    </p>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="fl-col fl-node-5c596387e23e0 fl-col-small"
+                                                                 data-node="5c596387e23e0">
+                                                                <div class="fl-col-content fl-node-content">
+                                                                    <div class="fl-module fl-module-uabb-button fl-node-5df8dd9cc2c93"
+                                                                         data-node="5df8dd9cc2c93">
+                                                                        <div class="fl-module-content fl-node-content">
+
+                                                                            <div class="uabb-module-content uabb-button-wrap uabb-creative-button-wrap uabb-button-width-custom uabb-creative-button-width-custom uabb-button-center uabb-creative-button-center uabb-button-reponsive-center uabb-creative-button-reponsive-center">
+                                                                                <a href="#" target="_self"
+                                                                                   class="uabb-button uabb-creative-button uabb-creative-default-btn   "
+                                                                                   role="button">
+                                                                                    <span class="uabb-button-text uabb-creative-button-text">
+                                                                                        Go to shop
+                                                                                    </span>
+
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+
+</odoo>
